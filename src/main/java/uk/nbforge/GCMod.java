@@ -3,6 +3,7 @@ package uk.nbforge;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import uk.nbforge.core.GCBlockEntities;
 import uk.nbforge.core.GCBlocks;
 import uk.nbforge.core.GCCreativeModeTabs;
 import uk.nbforge.core.GCItems;
@@ -16,5 +17,6 @@ public class GCMod implements ModInitializer {
         GCItems.initItems();
         GCBlocks.initBlocks();
         GCCreativeModeTabs.initCreativeModeTabs();
+        GCBlockEntities.initBlockEntities();
     }
 }
